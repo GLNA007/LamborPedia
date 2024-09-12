@@ -1,0 +1,56 @@
+body {
+    color: white;
+    background: black;
+    margin: 2px;
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 88px;
+}
+
+header {
+    border-bottom: solid 1px white;
+    padding: 6px;
+    font-size: 26px;
+}
+
+.chamada {
+    background: rgb(140, 121, 87); 
+    padding-bottom: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+h1 {
+    font-size: 27px;
+}
+
+p {
+    font-size: 19px;
+}
+
+
+.vc {
+    display: flex;
+    overflow-x: auto;
+    gap: 7px;
+}
+
+.vci {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 33px;
+}
+
+.vc img {
+    opacity: 0.6;
+    height: 280px;
+}
+
+.vc img:hover {
+    opacity: 1.0;
+    border: 1px rgb(140, 121, 87);
+}
